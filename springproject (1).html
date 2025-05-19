@@ -3,21 +3,30 @@
 <head>
   <title>Feature Input Form</title>
   <style>
+    /* this is a comment (ctrl k ctrl c). Below, I have used internal CSS to make the page more visually appealing. */
     body {
       font-family: Arial;
+        /* choosing the font */
       max-width: 600px;
+        /* defining the width of the application */
       margin: 40px auto;
+        /* defining space between application and side of screen, auto centering */
       padding: 20px;
+        /* defining space between application and top of screen */
       background-color: #f9f9f9;
+        /* background color  */
       border: 1px solid #ccc;
       border-radius: 8px;
+        /* border formmating */
     }
   </style>
 </head>
 <body>
   <h1>Input Features</h1>
+  <!-- the form directs users to the /submit page when it is submitted -->
   <form action="/submit" method="post">
 
+    <!-- label and input (text box) -->
     <label for="radius">a) Radius:</label><br>
     <input type="text" id="radius" name="radius"><br><br>
 
@@ -48,7 +57,9 @@
     <label for="fractal_dimension">j) Fractal Dimension:</label><br>
     <input type="text" id="fractal_dimension" name="fractal_dimension"><br><br>
 
+    <!-- inline css to format the submit button. -->
     <input type="submit" value="Submit" style="background-color: green; color: white;">
+    <!-- reset button which resets the form -->
     <input type="reset" value="Reset">
   </form>
 </body>
