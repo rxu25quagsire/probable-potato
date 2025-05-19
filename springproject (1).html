@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feature Input Form</title>
+  <style>
+    body {
+      font-family: Arial;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Input Features</h1>
+  <form action="/submit" method="post">
+
+    <label for="radius">a) Radius:</label><br>
+    <input type="text" id="radius" name="radius"><br><br>
+
+    <label for="texture">b) Texture:</label><br>
+    <input type="text" id="texture" name="texture"><br><br>
+
+    <label for="perimeter">c) Perimeter:</label><br>
+    <input type="text" id="perimeter" name="perimeter"><br><br>
+
+    <label for="area">d) Area:</label><br>
+    <input type="text" id="area" name="area"><br><br>
+
+    <label for="smoothness">e) Smoothness:</label><br>
+    <input type="text" id="smoothness" name="smoothness"><br><br>
+
+    <label for="compactness">f) Compactness:</label><br>
+    <input type="text" id="compactness" name="compactness"><br><br>
+
+    <label for="concavity">g) Concavity:</label><br>
+    <input type="text" id="concavity" name="concavity"><br><br>
+
+    <label for="concave_points">h) Concave Points:</label><br>
+    <input type="text" id="concave_points" name="concave_points"><br><br>
+
+    <label for="symmetry">i) Symmetry:</label><br>
+    <input type="text" id="symmetry" name="symmetry"><br><br>
+
+    <label for="fractal_dimension">j) Fractal Dimension:</label><br>
+    <input type="text" id="fractal_dimension" name="fractal_dimension"><br><br>
+
+    <input type="submit" value="Submit" style="background-color: green; color: white;">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
